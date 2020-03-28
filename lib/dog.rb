@@ -21,4 +21,3 @@ class Dog
     @all = @@all.clear
   end
 end
-
