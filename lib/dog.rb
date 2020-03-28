@@ -5,12 +5,12 @@ class Dog
 
    def initialize(name)
        @name = name
-       @@all << self 
+       @@all << self
    end
 
-   def clear_all 
+   def clear_all
      @clear_all
-   end 
+   end
 
    def self.all
        @@all
@@ -22,12 +22,8 @@ class Dog
        end
    end
 
-   def self.clear_all 
-     @@all = @@all.clear 
-   end 
-   
+   def self.clear_all
+     @@all = @@all.clear
+   end
+
  end
-
-
-
-  
