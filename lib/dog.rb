@@ -18,4 +18,4 @@ attr_accessor :name
             puts name
         end
     end
-  end 
+  end
